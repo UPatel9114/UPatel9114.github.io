@@ -1,0 +1,66 @@
+/* Typography */ 
+
+html {
+    font-family: 'Fira Sans', sans-serif; 
+}
+body{
+    background-color: antiquewhite;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 300; 
+    line-height: 25px; 
+}
+
+/* Layout */ 
+
+.wrapper {
+    width: 80%; 
+    margin: 0 auto; 
+}
+.wrapper nav{
+    width: 100%;
+    text-align: center;   
+}
+.wrapper nav a{
+    padding: 0.5em;
+    font-size: 35px;
+    height: 20%;
+    color: aqua;
+    text-decoration: none;
+}
+.wrapper nav a:hover{
+    background-color: aquamarine;
+    color: darkorchid;
+}
+.wrapper nav a:visited{
+    background-color: darkgoldenrod;
+    color: darkblue;
+}
+.flex a:focus{
+    background-color: grey;
+    color: wheat;
+}
+#features > div {
+    flex: 1; 
+}
+.flex {
+    display:flex;
+    gap: 32px;  
+}
+.flex p{
+    row-gap: 1.7em;
+    font-size: 1.4em;
+}
+img {
+    max-height: 350px; 
+    width: auto; 
+}
+
+main section {
+    padding: 60px 20px 0 20px; 
+}

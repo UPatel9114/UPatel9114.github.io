@@ -1,0 +1,42 @@
+table{
+    table-layout: auto;
+    width: 75%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-size: 20px;
+}
+thead tr th{
+    font-size: 1.5em;
+    background-color: burlywood;
+}
+th,td{
+    text-align: center;
+    padding: 14px;
+}
+tbody tr:nth-child(odd)
+{
+    background-color: goldenrod;
+}
+.flex h3{
+    font-size: 1.5em;
+    background-color: burlywood;
+    text-align: center;
+}
+.flex ul
+{
+    width: 50%;
+    font-size: 1.3em;
+}
+.flex ul li:nth-child(odd)
+{
+    background-color: goldenrod;
+}
+.flex ol 
+{
+    width: 50%;
+    font-size: 1.3em;
+}
+.flex ol li:nth-child(odd)
+{
+    background-color: goldenrod;
+}
